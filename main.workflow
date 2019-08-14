@@ -11,7 +11,7 @@ action "github official action" {
 
 action "docker action" {
   needs = "github official action"
-  uses = "docker://node:6"
+  uses = "docker://node:8-slim"
   args = ["node", "--version"]
 }
 
