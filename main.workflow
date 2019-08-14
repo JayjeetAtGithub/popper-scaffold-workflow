@@ -18,5 +18,5 @@ action "docker action" {
 action "example action" {
   needs = "docker action"
   uses = "./actions/example"
-  args = ["github.com"]
+  args = ["whoami"]
 }
