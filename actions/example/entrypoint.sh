@@ -2,4 +2,4 @@
 #!/bin/sh
 set -e
 
-sh -c "curl $*"
+sh -c "$*"
